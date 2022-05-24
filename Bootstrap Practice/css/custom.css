@@ -1,0 +1,42 @@
+.alert{
+	font-weight:bold;
+	text-align:center;
+}
+
+.pFooter{
+	clear:both;
+	margin-top:50px;
+	background-color:#f8f9fa;
+}
+
+.itemText{
+	float:right;
+	text-align:left;
+	width:250px;
+}
+
+.popularImage{
+	float:left;
+}
+.popularText{
+	float:right;
+	width:250px;
+}
+
+.table-stripedC{
+	float:center;
+	margin:auto;
+	text-align:center;
+	line-height:10px;
+	max-width:700px;
+}
+.form-groupC{
+	max-width:250px;
+}
+
+.navbar{
+	background-color:#eeeeee !important;
+}
+.breadcrumb{
+	background-color:#eeeeee !important;
+}
