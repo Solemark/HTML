@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta Data-->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Jquery library placed above any reference to Bootstrap js -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<link rel="stylesheet" href="css./bootstrap.min.css">
+		<link rel="stylesheet" href="css./custom.css">
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Page Title -->
+		<title>Motion Watches - Products</title>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  			<a class="navbar-brand" href="index.html">Motion Watches</a>
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+			       		<a class="nav-link" href="products.html">Products<span class="sr-only">(current)</span></a>
+			    	</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+		    	 	<div class="input-group">
+		      			<input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+		      			<div class="input-group-append">
+    						<button class="btn btn-outline-success" type="button">Search</button>
+						</div>
+		      		</div>
+		    	</form>
+		    	<ul class="navbar-nav mr-auto">
+		    		<li class="nav-item">
+			       		<a class="nav-link" href="shoppingcart.html">Shopping Cart</a>
+			    	</li>
+			    	<li class="nav-item">
+			       		<a class="nav-link" href="register.html">Register</a>
+			    	</li>
+			    	<li class="nav-item">
+			       		<a class="nav-link" href="loginConfirm.html" data-toggle="modal" data-target="#ModalLogin">Login</a>
+			    	</li>	      		
+		   		</ul>
+			</nav>
+
+			<div id="accordion">
+			  	<div class="card">
+			    	<div class="card-header" id="headingOne">
+			      		<h5 class="mb-0">
+			        		<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          			Analog Watch
+			        		</button>
+			      		</h5>
+			    	</div>
+			    	<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+			        	<div class="card-body">
+			      			<div class="table-responsive">
+								<table class="table table-striped table-hover">
+									<tbody>
+										<tr>
+											<td class="col-xs-3"><a href="goldwatch.html"><img src="img/goldwatch.png" width="100px"> Gold Watch</a></td>
+											<td class="col-xs-3"><p>A classic gold watch. . .<br>spectacular?!</p></td>
+											<td class="col-xs-3"><p>Price: $100<br></p><a href="goldwatch.html">View More</a></td>
+										</tr>
+										<tr>
+											<td class="col-xs-3"><a href="#"><img src="img/classicwatch.png" width="100px"> Classic Watch</a></td>
+											<td class="col-xs-3"><p>Fancy gold watch face. . .<br>comfortable leather wriststrap.</p></td>
+											<td class="col-xs-3"><p>Price: $130<br></p><a href="#">View More</a></td>
+										</tr>
+								</table>
+							</div>
+			      		</div>
+			    	</div>
+				</div>
+				<div class="card">
+			    	<div class="card-header" id="headingTwo">
+			      		<h5 class="mb-0">
+			        		<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          			Digital Watch
+			        		</button>
+			      		</h5>
+			    	</div>
+			    	<div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			        	<div class="card-body">
+			      			<div class="table-responsive">
+								<table class="table table-striped table-hover">
+					      			<tbody>
+										<tr>
+											<td class="col-xs-3"><a href="#"><img src="img/applewatch.png" width="100px"> Apple Watch</a></td>
+											<td class="col-xs-3"><p>Isn't the new apple watch just. . .<br>Excellent!</p></td>
+											<td class="col-xs-3"><p>Price: $250<br></p><a href="#">View More</a></td>
+										</tr>
+										<tr>
+											<td class="col-xs-3"><a href="#"><img src="img/digitalwatch.png" width="100px"> Digital Watch</a></td>
+											<td class="col-xs-3"><p>A Spiffy new digital watch. . . <br>is everything you could want in a watch.</p></td>
+											<td class="col-xs-3"><p>Price: $150<br></p><a href="#">View More</a></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+			      		</div>
+			    	</div>
+				</div>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+  				<div class="modal-dialog" role="document">
+   					<div class="modal-content">
+      					<div class="modal-header">
+        					<h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          						<span aria-hidden="true">&times;</span>
+        					</button>
+      					</div>
+      					<div class="modal-body">
+        					<form class="form-horizontal">
+        						<div class="form-group">
+        							<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+        							<div class="col-sm-10">
+        								<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+        							</div>
+        						</div>
+        						<div class="form-group">
+        							<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+        							<div class="col-sm-10">
+        								<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+        							</div>
+        						</div>
+        						<div class="form-group">
+        							<div class="col-sm-offset-2 col-sm-10">
+        								<div class="checkbox">
+        									<label><input type="checkbox"> Remember me</label>
+        								</div>
+        							</div>
+        						</div>
+        					</form>
+      					</div>
+        				<div class="modal-footer">
+        					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        					<button type="button" class="btn btn-primary">Sign In</button>
+      					</div>
+    				</div>
+  				</div>
+			</div>
+			<footer class="pFooter">
+				<p style="text-align:center">All prices in Australian Dollars(AUD) unless otherwise stated.<br>Student Name: Mason Larcombe, Student Number: S0257989</p>
+			</footer>
+		</div>
+	</body>	
+</html>
